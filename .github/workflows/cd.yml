@@ -19,4 +19,4 @@ jobs:
           go-version: "1.23.0"
         
       - name: Build
-        run:  docker build -t gwolverson/notely:latest . 
+        run:  ./scripts/buildprod.sh
